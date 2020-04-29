@@ -19,6 +19,10 @@ and run it with
 source .venv/bin/activate.fish
 # install requirements and this package with
 pip install -r requirements.txt
+
+# to create this as a kernel for jupyter
+python -m ipykernel install --user --name=project
+
 ```
 
 ## Directory Structure

@@ -1,5 +1,3 @@
-import pdb
-
 import numpy as np
 
 def some_test():
@@ -10,10 +8,3 @@ def some_test():
     y = np.matmul(w, x)
 
     return y
-
-def crash():
-    pdb.set_trace()
-    y = {}
-    x = []
-    # crash again
-    z = y + x
