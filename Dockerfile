@@ -5,11 +5,6 @@ RUN apt-get update
 RUN apt-get -y install cmake 
 RUN apt-get install -y libsm6 libxext6 libxrender-dev
 
-RUN pip install opencv-python
-RUN pip install sklearn scipy tqdm
-RUN pip install jupyterlab
-RUN pip install matplotlib
-
 # expose ports for jupyter notebooks and tensorboard
 EXPOSE 8888
 EXPOSE 6006
